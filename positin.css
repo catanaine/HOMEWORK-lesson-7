@@ -1,0 +1,96 @@
+.body{
+  margin: 0;
+}
+.border {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(215, 124, 200);
+    margin-bottom: 32px;
+    position: absolute;
+    top: 10px;
+    padding-right: 5px;
+    text-align: right;
+      
+}
+.stickyH {
+        background-color: aqua;
+        left: 0;
+        z-index: -1;
+}
+.stickyD {
+       background-color: greenyellow;
+       left: 20px;
+       z-index: -2;
+}
+.stickyC {
+       background-color: purple;
+       left: 40px;
+       z-index: -3;
+}
+.stickyB {
+        background-color: rosybrown;
+        left: 60px;
+        z-index: -4;
+ }
+.stickyA {
+        background-color: blueviolet;
+        left: 80px;
+        z-index: -5;
+ }
+ .container{
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.abs {
+    flex-direction: column;
+    top: 16px;
+    right: 16px;
+}
+
+
+.sarcina2 {
+    position: relative;
+    padding: 1px;
+    border: 2px dashed red;
+    margin: 10px;
+}
+.none {
+    display: none;
+}
+.hidden{
+    visibility: hidden;
+}
+.el4 {
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+   
+    
+}
+.elchild4 { 
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+
+
+.rand {
+    height: 100px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.coloana {
+    /* width: 100px; */
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+}
